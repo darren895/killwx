@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+   <view class="script" wx:for="{{scripts}}" > 
+    <text>{{item.name}}</text>
+    
+  </view>
+</view>
